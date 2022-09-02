@@ -38,7 +38,7 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY_STAGING}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME_STAGING}} #Must be unique in Heroku
-          heroku_email: "gastonbarbaccia@hotmail.com"
+          heroku_email: "carlosdemarino1989@gmail.com"
 
   Deploy_production:
     name: Deploy Production
